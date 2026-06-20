@@ -1,4 +1,4 @@
-AI-Powered LinkedIn Article Generator using LangGraph
+AI-Powered Social Media Blog Generator using LangGraph
 
 An agentic workflow built with LangGraph, LangChain, OpenAI GPT-4o-mini, and Tavily Search that automatically:
 
