@@ -5,9 +5,9 @@ services:
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_USER: admin
-      POSTGRES_PASSWORD: admin
-      POSTGRES_DB: checkpoint_practice
+      POSTGRES_USER: <your username>
+      POSTGRES_PASSWORD: <your password>
+      POSTGRES_DB: <the name of your DB>
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:

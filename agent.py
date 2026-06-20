@@ -349,7 +349,7 @@ def compile_graph_with_checkpointer(checkpointer):
 
 # SECURITY: replace this local development URI with an environment variable
 # before publishing the project; credentials should never live in source code.
-DB_URI = "postgresql://admin:admin@localhost:5432/checkpoint_practice"
+DB_URI = "postgresql://username:password@localhost:5432/database_name"
 
 with PostgresSaver.from_conn_string(DB_URI) as checkpointer:
     # Creates the checkpoint tables and indexes on the first run.
